@@ -42,7 +42,7 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.href= "https://vocal-dasik-d4acee.netlify.app/pagina2.html";
+        window.location.href= "https://raimos.netlify.app/pagina2.html";
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
@@ -59,7 +59,7 @@ function Contador(){
 }
 
 function enviaPedido(){
-    window.location.href= "https://vocal-dasik-d4acee.netlify.app/pedido.html";
+    window.location.href= "https://raimos.netlify.app/pedido.html";
 }
 
 function levaIG(){
