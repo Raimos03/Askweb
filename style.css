@@ -107,6 +107,49 @@ input[type=checkbox]  {
     margin-bottom: 12px !important;
 }
 
+#poema{
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    /* background-color:  rgb(104, 104, 104); */
+    border-radius: 8px;
+   
+}
+#bilhete{
+    background-image: url("folha.png");
+    background-position:  center;
+    background-repeat: no-repeat;
+    height: 1050px;
+    
+}
+
+#poema p,h3,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+
+}
+
+#poema h2{
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 55px;
+    color: rgb(29, 29, 29);
+}
+
+#poema h3{
+    text-align: left;
+    /* position: absolute; */
+    margin-left: 1rem;
+    margin-bottom: 55px;
+    color: rgb(29, 29, 29);
+}
+#poema p{
+    text-align: left;
+    margin-left: 1rem;
+    color: rgb(29, 29, 29);
+}
+
 
 .botaoprincipal{
 
@@ -123,6 +166,11 @@ input[type=checkbox]  {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 3px;
 }
+
+.botaopoema{
+    top: 25% !important;
+}
+
 .emoji{
     width: 50px;
     height: 50px;

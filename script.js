@@ -42,7 +42,7 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.href = "https://raimos03.github.io/Askweb/pedido.html";
+        window.location.href = "https://raimos03.github.io/Askweb/pagina2.html";
         
     }
     else{
@@ -56,6 +56,10 @@ function validaForm(){
 
 function Contador(){
 
+}
+
+function enviaPedido(){
+    window.location.href = "https://raimos03.github.io/Askweb/pedido.html";
 }
 
 function levaIG(){
