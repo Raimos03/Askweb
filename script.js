@@ -21,11 +21,29 @@ function geraPosicao(min, max) {
 
 function validaForm(){
 
-    var p1 = document.getElementById();
-    var p2 = document.getElementById();
-    var p3 = document.getElementById();
-    var p4 = document.getElementById();
+    var danca1 = document.getElementById("idr1");
+    var p2 = document.getElementById("idr5");
+    var c4 = document.getElementById("idr11");
+    var g4 = document.getElementById("idr15");
+    var h4 = document.getElementById("idr18")
     
+    console.log(danca1);
+    console.log(danca1.checked);
+    console.log(danca1.value);
+
+    console.log(p2.checked);
+    console.log(c4.checked);
+
+    console.log(g4.checked);
+
+    if(danca1.checked && p2.checked && c4.checked && g4.checked && h4.checked){
+
+        alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
+    }
+    else{
+        alert("Resposta Errada, tente novamente.x/")
+    }
+
     //refresh da pagina e envio
 }
 

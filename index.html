@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" <title>Oi bebê</title>
+    <link rel="stylesheet" href="style.css" <title></title>
 
 </head>
 
@@ -13,65 +13,97 @@
 
     <div id="container">
 
-        <div id="blocoPedidoNamoro">
-            <div id="cardPedido">
+        <h2>Olá, Jeniffer. Bem vinda ao:</h2>
+        <div id="divformulario">
 
-                <h2> Chegou o grande dia de te assumir oficialmente para o Brasil! </h2>
-                <h2> Você aceita namorar comigo? </h2>
-                <h1 class="emoji">&#128525; </h1>
+            <h2>Quiz da Afinidade</h2>
 
-            </div>
+            <form id="formulario" method="get">
+                <p>Qual o movimento que o Pedro mais gosta de fazer ao dançar?</p>
 
-            <button id="btn1" onclick="sim()" class="botaoprincipal">SIM</button>
-            <button id="btn2" onclick="desvia()" onmouseover="desvia()" class="botaoprincipal">NAO</bUTTON>
-            
+                <input type="checkbox" name="danca1" id="idr1" value="quadradinho">
+                <label for="idr1">Quadradinho</label><br>
+
+                <input type="checkbox" name="danca2" id="idr2" value="none">
+                <label for="idr1">Dancinha</label><br>
+
+                <input type="checkbox" name="danca3" id="idr3" value="none">
+                <label for="idr1">Sanfoninha</label><br>
+
+                <input type="checkbox" name="danca4" id="idr12" value="none">
+                <label for="idr1">Sarrada</label><br>
+
+                <p>O que o Pedro representa para você?</p>
+
+                <input type="checkbox" name="p1" id="idr2" value="none">
+                <label for="idr2">Amigo</label><br>
+
+                <input type="checkbox" name="p2" id="idr5" value="especial">
+                <label for="idr2">Pessoa especial</label><br>
+
+                <input type="checkbox" name="p3" id="idr6" value="none">
+                <label for="idr2">Um lance</label><br>
+
+                <input type="checkbox" name="p4" id="idr7" value="none">
+                <label for="idr2">Ainda não sei</label><br>
+
+                <p>Qual a melhor descrição que representa vocês?</p>
+
+                <input type="checkbox" name="c1" id="idr3" value="none">
+                <label for="idr3">Carinho</label><br>
+
+                <input type="checkbox" name="c2" id="idr9" value="none">
+                <label for="idr3">Topa tudo</label><br>
+
+                <input type="checkbox" name="c3" id="idr10" value="none">
+                <label for="idr3">Comida</label><br>
+
+                <input type="checkbox" name="c4" id="idr11" value="perrengue">
+                <label for="idr3">Perrengue</label><br>
+
+                <p>Quanto o Pedro gosta de você?</p>
+
+                <input type="checkbox" name="g1" id="idr4" value="none">
+                <label for="idr4">Pouco</label><br>
+
+                <input type="checkbox" name="g2" id="idr13" value="none">
+                <label for="idr4">Pote</label><br>
+
+                <input type="checkbox" name="g3" id="idr14" value="none">
+                <label for="idr4">Potao</label><br>
+
+                <input type="checkbox" name="g4" id="idr15" value="pote">
+                <label for="idr4">Varios potões</label><br>
+
+                <p>O que você sente por ele e ainda nao disse?</p>
+
+                <input type="checkbox" name="h1" id="idr5" value="none">
+                <label for="idr5">Que gosta</label><br>
+
+                <input type="checkbox" name="h2" id="idr16" value="none">
+                <label for="idr5">Que o adora</label><br>
+
+                <input type="checkbox" name="h3" id="idr17" value="ama">
+                <label for="idr5">Que o admira</label><br>
+
+                <input type="checkbox" name="h4" id="idr18" value="pote">
+                <label for="idr5">Que o a_a</label><br>
+
+
+                <button class="botaoprincipal" onclick="validaForm()" type="submit">Enviar</button>
+
+            </form>
+
+
+
+
         </div>
 
-    <div id="divformulario">
-
-        <form id="formulario">         
-            <p>Qual o movimento que o Pedro mais gosta de fazer ao dançar?</p>
-            
-            <input type="checkbox" name="danca1" id="idr1" value="quadradinho">
-            <label for="idr1">Quadradinho</label>
-            <input type="checkbox" name="danca2" id="idr2" value="none">
-            <label for="idr1">Dancinha</label>
-            <input type="checkbox" name="danca3" id="idr3" value="none">
-            <label for="idr1">Sanfoninha</label>
-             
-            <p>O que o Pedro representa para voce?</p>
-            
-            <input type="checkbox" name="p1" id="idr2" value="none">
-            <label for="idr2">Amigo</label>
-            <input type="checkbox" name="p2" id="id5" value="especial">
-            <label for="idr2">Alguem especial</label>
-            <input type="checkbox" name="p3" id="idr6" value="none">
-            <label for="idr2">Um lance</label>
-            <input type="checkbox" name="p4" id="idr7" value="none">
-            <label for="idr2">Ainda nao sei</label>
-
-            <p>Qual a melhor descrição que representa voces dois?</p>
-            
-            <input type="checkbox" name="c1" id="idr3" value="none">
-            <label for="idr3">Casal Carinho</label>
-            <input type="checkbox" name="c2" id="idr9" value="none">
-            <label for="idr3">Casal topa tudo</label>
-            <input type="checkbox" name="c3" id="idr10" value="none">
-            <label for="idr3">Casal comida</label>
-            <input type="checkbox" name="c4" id="idr11" value="perrengue">
-            <label for="idr3">Casal perrengue</label>
-
-            <input class="botaoprincipal" onclick="validaForm()"type="submit" value="Enviar">
-
-        </form>
-       
-
-    
-    
     </div>
 
-
-
+    <footer>
+        
+    </footer>
 
     <script type="text/javascript" src="script.js"></script>
 
