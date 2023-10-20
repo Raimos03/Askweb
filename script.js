@@ -42,8 +42,9 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.assign=  "https://raimos.netlify.app/pagina2.html";
-        window.location.assign=  "https://raimos.netlify.app/pagina2";
+        window.location.assign=  "raimos.netlify.app/pagina2.html";
+        window.location.assign=  "raimos.netlify.app/pagina2";
+        window.location=  "raimos.netlify.app/pagina2";
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
