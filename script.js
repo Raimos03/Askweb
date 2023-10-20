@@ -39,11 +39,18 @@ function validaForm(){
     if(danca1.checked && p2.checked && c4.checked && g4.checked && h4.checked){
 
         alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
+        // setTimeout(function() {
+        //     window.location.href = "/pedido.html";
+        // }, 1000);
+        window.location.href = "pedido.html";
+        alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
         alert("Resposta Errada, tente novamente.x/")
     }
 
+
+    
     //refresh da pagina e envio
 }
 
