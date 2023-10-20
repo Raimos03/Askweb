@@ -59,7 +59,7 @@ function Contador(){
 }
 
 function enviaPedido(){
-    window.location.href = "https://raimos03.github.io/Askweb/pedido.html";
+    window.location= "https://raimos03.github.io/Askweb/pedido.html";
 }
 
 function levaIG(){
