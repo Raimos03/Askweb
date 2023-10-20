@@ -24,14 +24,48 @@
 
             <button id="btn1" onclick="sim()" class="botaoprincipal">SIM</button>
             <button id="btn2" onclick="desvia()" onmouseover="desvia()" class="botaoprincipal">NAO</bUTTON>
-
-
-
-            <p>Boao de enviar pedido ao instagram</p>
-            <a href="https://www.instagram.com/limaapedro"> Clique e seja feliz x)</a>
+            
         </div>
 
-    
+    <div id="divformulario">
+
+        <form id="formulario">         
+            <p>Qual o movimento que o Pedro mais gosta de fazer ao dançar?</p>
+            
+            <input type="checkbox" name="danca1" id="idr1" value="quadradinho">
+            <label for="idr1">Quadradinho</label>
+            <input type="checkbox" name="danca2" id="idr2" value="none">
+            <label for="idr1">Dancinha</label>
+            <input type="checkbox" name="danca3" id="idr3" value="none">
+            <label for="idr1">Sanfoninha</label>
+             
+            <p>O que o Pedro representa para voce?</p>
+            
+            <input type="checkbox" name="p1" id="idr2" value="none">
+            <label for="idr2">Amigo</label>
+            <input type="checkbox" name="p2" id="id5" value="especial">
+            <label for="idr2">Alguem especial</label>
+            <input type="checkbox" name="p3" id="idr6" value="none">
+            <label for="idr2">Um lance</label>
+            <input type="checkbox" name="p4" id="idr7" value="none">
+            <label for="idr2">Ainda nao sei</label>
+
+            <p>Qual a melhor descrição que representa voces dois?</p>
+            
+            <input type="checkbox" name="c1" id="idr3" value="none">
+            <label for="idr3">Casal Carinho</label>
+            <input type="checkbox" name="c2" id="idr9" value="none">
+            <label for="idr3">Casal topa tudo</label>
+            <input type="checkbox" name="c3" id="idr10" value="none">
+            <label for="idr3">Casal comida</label>
+            <input type="checkbox" name="c4" id="idr11" value="perrengue">
+            <label for="idr3">Casal perrengue</label>
+
+            <input class="botaoprincipal" onclick="validaForm()"type="submit" value="Enviar">
+
+        </form>
+       
+
     
     
     </div>

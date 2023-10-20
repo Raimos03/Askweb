@@ -16,13 +16,18 @@ h1,h2,h3{
     color: rgb(29, 110, 231);
 }
 
+p{
+    color: rgb(36, 36, 36);
+}
+
+
 #container{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
    
     top: 80px;
-    position: fixed;
+    position: absolute;
    
     text-align: center;
 }
@@ -66,7 +71,7 @@ h1,h2,h3{
     margin: 0 auto;
     
     width: 75vw;
-    height: 40vh;
+    height: 55vh;
     background-color: rgb(247, 245, 245);
     box-shadow: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -75,6 +80,32 @@ h1,h2,h3{
     
 }
 
+#divformulario{
+    padding: 20px;
+}
+#divformulario > h2:nth-child(1){
+    margin: 10px;
+    font-size:27px;
+}
+form p{
+    font-size: 1.3rem;
+    margin: 25px;
+}
+form label{
+    font-size:1.1rem;
+}
+
+input, label{
+    margin: 5px 0px 20px 3px;
+
+}
+input[type=checkbox]  {
+    border: 0px;
+    width: 20px;
+    height: 25px;
+    vertical-align:middle !important;
+    margin-bottom: 12px !important;
+}
 
 
 .botaoprincipal{
@@ -96,6 +127,7 @@ h1,h2,h3{
     width: 50px;
     height: 50px;
 }
+
 
 
 
