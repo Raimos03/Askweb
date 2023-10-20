@@ -42,8 +42,8 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.href = "https://raimos03.github.io/Askweb/pagina2.html";
-        alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
+        //window.location.href = "https://raimos03.github.io/Askweb/pagina2.html";
+        //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
         alert("Resposta Errada, tente novamente.x/")
