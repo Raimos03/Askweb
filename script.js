@@ -42,7 +42,7 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.href = "pedido.html";
+        window.location.href = "https://raimos03.github.io/Askweb/pedido.html";
         alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
