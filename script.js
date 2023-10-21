@@ -55,7 +55,7 @@ function validaForm(){
        
     }
 
-    window.location.assign= "https://raimos.netlify.app/pedido.html";
+    window.location= "https://raimos.netlify.app/pedido.html";
  
 }
 
