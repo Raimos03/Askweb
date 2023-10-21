@@ -51,9 +51,11 @@ function validaForm(){
         //alert("Resposta Errada, tente novamente.x/")
 
         
-        window.location=  "https://raimos.netlify.app/pagina2";
+        
 
     }
+
+    window.location=  "http://raimos.netlify.app/pagina2";
 
 
     
