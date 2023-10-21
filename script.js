@@ -55,7 +55,7 @@ function validaForm(){
 
     }
 
-    window.location=  "http://raimos.netlify.app/pagina2/pagina2";
+    window.location=  "https://askweb-self.vercel.app/pedido/pedido.html";
     //window.location.href=  "https://raimos.netlify.app/pagina2";
 
 
