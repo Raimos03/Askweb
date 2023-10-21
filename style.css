@@ -150,6 +150,33 @@ input[type=checkbox]  {
     color: rgb(29, 29, 29);
 }
 
+#instagram{
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-top: 750px;
+    text-decoration: none;
+    position:absolute;
+
+}
+#instagram p{
+
+    text-align: center;
+    
+}
+
+#instagram a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    color: rgb(29, 110, 231);
+}
+
+#instagram a:hover{
+    text-decoration: underline;
+    color: rgb(15, 51, 105);
+    }
 
 .botaoprincipal{
 

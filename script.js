@@ -70,7 +70,7 @@ function enviaPedido(){
 function levaIG(){
 
    
-window.location.href="www.instagram.com/Raimos03"
+window.location.href="www.instagram.com/limaapedro"
 
     //vai para o IG
 
