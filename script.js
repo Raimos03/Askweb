@@ -42,16 +42,16 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.assign=  "www.raimos.netlify.app/pagina2.html";
-        window.location.assign=  "www.raimos.netlify.app/pagina2";
-        window.location=  "www.raimos.netlify.app/pagina2";
+        window.location.assign=  "https://raimos.netlify.app/pagina2.html";
+        window.location.assign=  "https://raimos.netlify.app/pagina2";
+        window.location=  "https://raimos.netlify.app/pagina2";
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
         //alert("Resposta Errada, tente novamente.x/")
 
-        window.location.assign=  "www.raimos.netlify.app/pagina2.html";
-        window.location=  "www.raimos.netlify.app/pagina2";
+        window.location.assign=  "https://raimos.netlify.app/pagina2.html";
+        window.location=  "https://raimos.netlify.app/pagina2";
 
     }
 
