@@ -39,6 +39,7 @@ function validaForm(){
     if(danca1.checked && p2.checked && c4.checked && g4.checked && h4.checked){
 
         alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
+        alert("")
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
@@ -48,19 +49,14 @@ function validaForm(){
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
-        alert("Resposta Errada, tente novamente.x/")
+        alert("Resposta Errada, tente novamente.x/");
 
-        
-        
-
+        alert("https://raimos.netlify.app/pedido.html");
+       
     }
 
-    window.location.href=  "https://askweb-self.vercel.app/pedido.html";
-    //window.location.href=  "https://raimos.netlify.app/pagina2";
 
-
-    
-    //refresh da pagina e envio
+ 
 }
 
 function Contador(){
@@ -68,7 +64,7 @@ function Contador(){
 }
 
 function enviaPedido(){
-    window.location.assign= "https://raimos.netlify.app/pedido.html";
+    //window.location.assign= "https://raimos.netlify.app/pedido.html";
 }
 
 function levaIG(){
