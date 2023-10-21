@@ -39,7 +39,7 @@ function validaForm(){
     if(danca1.checked && p2.checked && c4.checked && g4.checked && h4.checked){
 
         alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
-        alert("")
+        
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
@@ -55,7 +55,7 @@ function validaForm(){
        
     }
 
-    window.location= "https://raimos.netlify.app/pedido.html";
+    
  
 }
 
