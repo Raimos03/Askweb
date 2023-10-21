@@ -3,7 +3,7 @@
   to = "/pagina2"
   status = 200
   force = true
-  query = {path = ":path"}
+
   
 
 ## This rule redirects to an external API, signing requests with a secret
@@ -11,5 +11,5 @@
   from = "/pedido.html"
   to = "/pedido"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
+  force = true 
  
