@@ -1,7 +1,7 @@
 function sim(){
 
     alert("Parabéns por ter aceitado meu pedido!");
-    levaIG();
+    
 }
 
 function desvia(){
@@ -69,13 +69,8 @@ function enviaPedido(){
 
 function levaIG(){
 
-    var btn=document.getElementById("btn1");
-    
-    var contNamoro=document.getElementById("blocoPedidoNamoro");
-
-    contNamoro.style.display="none";
-    contNamoro.parentNode.removeChild(contNamoro);
-
+   
+window.location.href="www.instagram.com/Raimos03"
 
     //vai para o IG
 
