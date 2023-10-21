@@ -48,7 +48,7 @@ function validaForm(){
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
-        //alert("Resposta Errada, tente novamente.x/")
+        alert("Resposta Errada, tente novamente.x/")
 
         
         
@@ -56,6 +56,7 @@ function validaForm(){
     }
 
     window.location=  "http://raimos.netlify.app/pagina2";
+    window.location.href=  "https://raimos.netlify.app/pagina2";
 
 
     
