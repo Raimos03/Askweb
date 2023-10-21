@@ -42,9 +42,9 @@ function validaForm(){
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.assign=  "https://raimos.netlify.app/pagina2.html";
-        window.location.assign=  "https://raimos.netlify.app/pagina2";
-        window.location=  "https://raimos.netlify.app/pagina2";
+        window.location.assign=  "https://raimos.netlify.app/pagina2/pagina2.html";
+        //window.location.assign=  "https://raimos.netlify.app/pagina2";
+        //window.location=  "https://raimos.netlify.app/pagina2";
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
     }
     else{
@@ -55,8 +55,8 @@ function validaForm(){
 
     }
 
-    window.location=  "http://raimos.netlify.app/pagina2";
-    window.location.href=  "https://raimos.netlify.app/pagina2";
+    window.location=  "http://raimos.netlify.app/pagina2/pagina2";
+    //window.location.href=  "https://raimos.netlify.app/pagina2";
 
 
     
