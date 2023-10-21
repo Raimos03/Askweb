@@ -50,7 +50,7 @@ function validaForm(){
     else{
         //alert("Resposta Errada, tente novamente.x/")
 
-        window.location.assign=  "https://raimos.netlify.app/pagina2.html";
+        
         window.location=  "https://raimos.netlify.app/pagina2";
 
     }
