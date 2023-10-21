@@ -38,11 +38,11 @@ function validaForm(){
 
     if(danca1.checked && p2.checked && c4.checked && g4.checked && h4.checked){
 
-        //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
+        alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
         // setTimeout(function() {
         //     window.location.href = "/pedido.html";
         // }, 1000);
-        window.location.assign=  "https://raimos.netlify.app/pagina2/pagina2.html";
+        //window.location.assign=  "https://raimos.netlify.app/pagina2/pagina2.html";
         //window.location.assign=  "https://raimos.netlify.app/pagina2";
         //window.location=  "https://raimos.netlify.app/pagina2";
         //alert(" *** PARABENS BEBEZONA x)  VOCE ACERTOU ******");
@@ -55,7 +55,7 @@ function validaForm(){
 
     }
 
-    window.location=  "https://askweb-self.vercel.app/pedido/pedido.html";
+    window.location.href=  "https://askweb-self.vercel.app/pedido.html";
     //window.location.href=  "https://raimos.netlify.app/pagina2";
 
 
